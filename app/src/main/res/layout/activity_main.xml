@@ -213,13 +213,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="________________________________________________________"
-        android:layout_marginBottom="130dp"
+        android:layout_marginBottom="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints" />
     <ImageView
+        android:id="@+id/barcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/barcode"
+        android:src="@drawable/images"
         app:layout_constraintTop_toBottomOf="@id/underLiner"/>
 
 
